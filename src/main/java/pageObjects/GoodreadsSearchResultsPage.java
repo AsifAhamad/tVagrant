@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 public class GoodreadsSearchResultsPage {
 
     WebDriver driver;
-
-    @FindBy(xpath = "//*[@id=\"1_book_877789\"]/div[1]/form/button/span[1]")
-    public WebElement wantToReadButton;
-
+    
+    @FindBy(xpath = "(//td[@valign='top'])[2]/a")
+    public WebElement firstResult;	
+    
     @FindBy(xpath = "//button[@class='wtrStatusToRead wtrUnshelve']")
     public WebElement statusToRead;
 

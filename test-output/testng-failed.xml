@@ -3,12 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="tVagrant.com.tVagrant.LandingPageValidation">
+      <class name="tVagrant.com.tVagrant.FindaBook">
         <methods>
-          <include name="LoginPageUIValidation"/>
+          <include name="teardown"/>
           <include name="initialize"/>
+          <include name="WhatsThatBookName"/>
         </methods>
-      </class> <!-- tVagrant.com.tVagrant.LandingPageValidation -->
+      </class> <!-- tVagrant.com.tVagrant.FindaBook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -28,9 +28,11 @@ public class GoodreadsPage extends Base {
 
     //Login to Account method
     public void loginToAccount (String mail, String password) {
+    	
         signInEmail.sendKeys(mail);
         signInPassword.sendKeys(password);
         signInButton.click();
+        
     }
 
 }

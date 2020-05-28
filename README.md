@@ -20,3 +20,16 @@ testing.xml - Test suit containing single test scenario
 Test-output - contains the TestNG output reports in html format
 
 * Needs attention before execution
+
+
+Instructions to import this project:
+
+1. Download as Zip or copy Github link
+
+2. Create Maven project
+
+3. Select project and Import project from file system or Import from Git 
+
+4. Click finish to import and let maven finish the download of dependencies
+
+5. Run testng.xml for execution of Automation Scenario
